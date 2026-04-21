@@ -1,16 +1,56 @@
 # 🌳 Daily Reflection Tree (AI-Inspired Psychological System)
 
+## ❗ Why This Matters
+
+Most people evaluate their day based on outcomes:
+- "Did I finish tasks?"
+- "Was I productive?"
+
+This system challenges that approach.
+
+It helps users see:
+- the decisions they made (agency)
+- what they paid attention to (signal vs noise)
+- the hidden causes behind their behavior
+
+The goal is not to judge the day, but to understand it.
+
+---
+
 ## 🧠 Overview
 
 This project is a decision-tree based reflection system designed to help users reinterpret their day through structured questions.
 
 A decision tree is a flowchart-like structure where each question leads to different outcomes based on responses. :contentReference[oaicite:0]{index=0}  
+
 This project adapts that concept from machine learning into a **human self-awareness system**.
 
 Instead of classifying data, this system helps users:
 - recognize their personal agency (control over actions)
 - filter meaningful vs distracting inputs
 - diagnose underlying causes of behavior and energy
+
+---
+
+## 🧩 System Design
+
+This reflection model works in three layers:
+
+### 1. Input Layer  
+User experiences from the day (actions, attention, energy)
+
+### 2. Classification Layer  
+Inspired by AI systems:
+- Spam Filtering → attention classification (signal vs noise)
+- Diagnosis → root cause identification
+
+### 3. Insight Layer  
+Generates meaning:
+- Where the user had control
+- What influenced outcomes
+- What can improve
+
+This structure transforms reflection into a repeatable system.
 
 ---
 
@@ -21,16 +61,16 @@ This system is inspired by two real-world decision systems:
 ### 📧 Spam Filtering → Attention System
 Just like email systems classify messages as spam or important, humans constantly filter attention.
 
-👉 This system helps users reflect:
+👉 Reflection:
 - What did I treat as “important” today?
 - What was actually noise?
 
 ---
 
 ### 🏥 Disease Diagnosis → Root Cause Thinking
-Medical systems diagnose diseases by identifying underlying causes of symptoms.
+Medical systems diagnose problems by identifying root causes behind symptoms.
 
-👉 This system helps users reflect:
+👉 Reflection:
 - What caused my low energy or distraction?
 - What patterns led to my outcomes?
 
@@ -38,33 +78,33 @@ Medical systems diagnose diseases by identifying underlying causes of symptoms.
 
 ## 🌳 1. Agency & Attention Awareness
 
-Q1: What did your mind classify as “important” today?
+Q1: If your attention worked like a spam filter today — what did it mistakenly mark as “important”?
 
-- Mostly meaningful work →
-    ✔ Insight: Your attention system prioritized value.
-    → Q2
+- Mostly meaningful work →  
+  ✔ Insight: Your attention system prioritized value  
+  → Q2
 
-- Mixed (work + distractions) →
-    ✔ Insight: Your attention filtering was partially effective.
-    → Q2
+- Mixed (work + distractions) →  
+  ✔ Insight: Your filtering worked, but not consistently  
+  → Q2
 
-- Mostly distractions →
-    ✔ Insight: Your system misclassified noise as important.
-    → Q2
+- Mostly distractions →  
+  ✔ Insight: Noise was treated as signal  
+  → Q2
 
 ---
 
 ## 🌳 2. Control & Decision Awareness
 
-Q2: Where did you actively choose your response instead of reacting automatically?
+Q2: Where did you consciously choose your response instead of reacting automatically?
 
-- I can identify clear moments →
-    ✔ Insight: You exercised control over your behavior.
-    → Q3
+- I can identify clear moments →  
+  ✔ Insight: You exercised control over your behavior  
+  → Q3
 
-- Not sure →
-    ✔ Insight: Many decisions are subtle and go unnoticed.
-    → Q3
+- Not sure →  
+  ✔ Insight: Many decisions are subtle and go unnoticed  
+  → Q3
 
 ---
 
@@ -72,29 +112,29 @@ Q2: Where did you actively choose your response instead of reacting automaticall
 
 Q3: What most influenced your focus or energy today?
 
-- External distractions →
-    ✔ Diagnosis: Environment influenced your attention
+- External distractions →  
+  ✔ Diagnosis: Your environment shaped your attention
 
-- Internal state (fatigue/mood) →
-    ✔ Diagnosis: Energy and emotions shaped your performance
+- Internal state (fatigue/mood) →  
+  ✔ Diagnosis: Energy and emotions influenced your actions
 
-- Clear focus →
-    ✔ Diagnosis: You maintained internal stability
+- Clear focus →  
+  ✔ Diagnosis: You maintained internal stability
 
 ---
 
 ## 🌳 4. Growth Reflection
 
-Q4: What improved slightly compared to yesterday?
+Q4: What improved even slightly compared to yesterday?
 
-- I can identify improvement →
-    ✔ Insight: Growth is happening incrementally
+- I can identify improvement →  
+  ✔ Insight: Growth is happening incrementally
 
-- No clear improvement →
-    ✔ Insight: Stability is also part of growth
+- No clear improvement →  
+  ✔ Insight: Stability is also part of growth
 
-- Not sure →
-    ✔ Insight: Growth is often invisible in the short term
+- Not sure →  
+  ✔ Insight: Growth is often invisible in the short term
 
 ---
 
