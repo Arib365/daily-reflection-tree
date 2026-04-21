@@ -165,6 +165,8 @@ The system generates:
 
 ---
 
+Built as a behavioral reflection system combining decision-tree logic with human cognitive patterns.
+
 ## 🌊 Flowchart Representation
 
 ```mermaid
