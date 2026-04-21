@@ -1,79 +1,141 @@
-# 🌳 Daily Reflection Tree
+# 🌳 Daily Reflection Tree (AI-Inspired Psychological System)
 
-## Overview
-This system helps users reflect on their day using structured questions.  
-It guides users through a decision tree and provides personalized insights based on their answers.
+## 🧠 Overview
 
----
+This project is a decision-tree based reflection system designed to help users reinterpret their day through structured questions.
 
-## 1. Start of Reflection
+A decision tree is a flowchart-like structure where each question leads to different outcomes based on responses. :contentReference[oaicite:0]{index=0}  
+This project adapts that concept from machine learning into a **human self-awareness system**.
 
-Q1: Did you complete your planned tasks today?
-
-- YES → go to Q2  
-- NO → go to Q5  
-
----
-
-## 2. If YES
-
-Q2: How focused were you today?
-
-- High → Q3  
-- Medium → Q4  
-- Low → Improvement suggestion  
+Instead of classifying data, this system helps users:
+- recognize their personal agency (control over actions)
+- filter meaningful vs distracting inputs
+- diagnose underlying causes of behavior and energy
 
 ---
 
-### High Focus Path
+## 🌍 Core Idea
 
-Q3: Did you feel satisfied with your productivity?
+This system is inspired by two real-world decision systems:
 
-- Yes → You had a productive and satisfying day. Keep consistency.
-- No → You were productive but lack clarity in goals.
+### 📧 Spam Filtering → Attention System
+Just like email systems classify messages as spam or important, humans constantly filter attention.
 
----
-
-### Medium Focus Path
-
-Q4: What affected your focus?
-
-- Minor distractions → Reduce notifications, improve focus blocks
-- Fatigue → Take breaks, improve sleep cycle
+👉 This system helps users reflect:
+- What did I treat as “important” today?
+- What was actually noise?
 
 ---
 
-## 3. If NO
+### 🏥 Disease Diagnosis → Root Cause Thinking
+Medical systems diagnose diseases by identifying underlying causes of symptoms.
 
-Q5: What stopped you from completing tasks?
-
-- Distractions → Use focus tools like Pomodoro
-- Low energy → Rest and improve health routine
-- No planning → Create daily task list every morning
-
----
-
-## 4. Energy Check
-
-Q6: How was your energy today?
-
-- High → Good for deep work tomorrow
-- Medium → Maintain steady routine
-- Low → Focus on recovery and rest
+👉 This system helps users reflect:
+- What caused my low energy or distraction?
+- What patterns led to my outcomes?
 
 ---
 
-## 5. Learning Reflection
+## 🌳 1. Agency & Attention Awareness
 
-Q7: Did you learn something new today?
+Q1: What did your mind classify as “important” today?
 
-- Yes → Great habit, revise tomorrow
-- No → Dedicate 30–60 mins daily for learning
+- Mostly meaningful work →
+    ✔ Insight: Your attention system prioritized value.
+    → Q2
+
+- Mixed (work + distractions) →
+    ✔ Insight: Your attention filtering was partially effective.
+    → Q2
+
+- Mostly distractions →
+    ✔ Insight: Your system misclassified noise as important.
+    → Q2
 
 ---
 
-## Final Output
+## 🌳 2. Control & Decision Awareness
 
-- Productivity Level: High / Medium / Low  
-- Focus Level: High / Medium / Low  
-- One improvement suggestion for tomorrow
+Q2: Where did you actively choose your response instead of reacting automatically?
+
+- I can identify clear moments →
+    ✔ Insight: You exercised control over your behavior.
+    → Q3
+
+- Not sure →
+    ✔ Insight: Many decisions are subtle and go unnoticed.
+    → Q3
+
+---
+
+## 🌳 3. Diagnosis (Root Cause Analysis)
+
+Q3: What most influenced your focus or energy today?
+
+- External distractions →
+    ✔ Diagnosis: Environment influenced your attention
+
+- Internal state (fatigue/mood) →
+    ✔ Diagnosis: Energy and emotions shaped your performance
+
+- Clear focus →
+    ✔ Diagnosis: You maintained internal stability
+
+---
+
+## 🌳 4. Growth Reflection
+
+Q4: What improved slightly compared to yesterday?
+
+- I can identify improvement →
+    ✔ Insight: Growth is happening incrementally
+
+- No clear improvement →
+    ✔ Insight: Stability is also part of growth
+
+- Not sure →
+    ✔ Insight: Growth is often invisible in the short term
+
+---
+
+## 🌳 Final Output
+
+The system generates:
+
+- 🧠 Agency Awareness Level (High / Medium / Low)  
+- 🎯 Attention Quality (Focused / Mixed / Distracted)  
+- 🔍 Root Cause Insight (Environment / Internal / Stable)  
+
+### 🌱 Final Reflection Message:
+“Your day was shaped by small decisions, filtered attention, and underlying patterns. Awareness of these gives you more control tomorrow.”
+
+---
+
+## 🌊 Flowchart Representation
+
+```mermaid
+flowchart TD
+
+A[Start Reflection] --> B{What was important today?}
+
+B -->|Meaningful| C[Good attention filtering]
+B -->|Mixed| D[Partial filtering]
+B -->|Distractions| E[Noise misclassified]
+
+C --> F{Did you choose your responses?}
+D --> F
+E --> F
+
+F -->|Yes| G[High agency]
+F -->|No| H[Low awareness]
+
+G --> I{What affected your energy?}
+H --> I
+
+I -->|External| J[Environment influence]
+I -->|Internal| K[Emotional/energy cause]
+I -->|Stable| L[Consistent performance]
+
+J --> M[Final Reflection]
+K --> M
+L --> M
